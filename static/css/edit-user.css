@@ -1,0 +1,76 @@
+.full-body{
+    min-height: 80%;
+    }
+.container-bg{
+    background-color: white;
+}
+.register-h{
+margin-top: 50px;
+}
+.input{
+width: 90%;
+border-style: solid;
+border-radius: 3px;
+border-color: gray;
+border-width: 1px;
+padding: 3px 15px 3px 15px;
+color: rgb(48, 48, 48);
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.msg-success{
+    background-color: rgb(168, 255, 168);
+    border-style: none;
+    color: green;
+    width:100%;
+    padding-left: 15px;
+    margin: 5px;
+}
+.msg-failed{
+    background-color: rgb(255, 177, 174);
+    border-style: none;
+    color: red;
+    width: 100%;
+    padding-left: 15px;
+    margin: 5px;
+}
+.register-btn{
+    cursor: pointer;
+    width: 20%;
+    background-color: rgb(48, 131, 48);
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    padding:3px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+ }
+ .register-btn:hover{
+     background-color: rgb(33, 82, 33);
+ }
+
+
+
+ @media (max-width: 576px) {
+    .input{
+         width: 80%;
+        }
+        
+        .register-btn {
+        width: 40%;
+          }
+  }
+  
+  @media (min-width: 768px) {
+  
+  }
+  
+  @media (min-width: 992px) {
+ 
+  }
+  
+  @media (min-width: 1200px) {
+ 
+  }

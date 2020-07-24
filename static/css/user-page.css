@@ -1,0 +1,278 @@
+.full-body{
+min-height: 80%;
+}
+.user-name{
+    margin: 50px 15px 15px 15px;
+    color: rgb(95, 95, 95);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.cart{
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    background-color: white;
+    border-radius: 2px;
+    margin: 15px;
+    display: inline-flex;
+}
+.cart:hover{
+background-color: rgb(230, 230, 230);
+}
+#cart:hover .cart1, .cart2{
+ color: rgb(66, 66, 66);
+}
+.cart h2{
+color: rgb(83, 83, 83);
+} 
+.cart h2:hover{
+  color: gray;
+} 
+  
+.cart h5{
+  color: brown;
+}
+.cart h5:hover{
+  color: gray;
+}
+.order{
+  width: 80%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  background-color: white;
+  border-radius: 2px;
+  margin: 15px;
+  display: inline-flex;
+}
+.order:hover{
+  background-color: rgb(230, 230, 230);
+}
+.order h2{
+  color: rgb(83, 83, 83);
+}
+.order  h5{
+  color: brown;
+}
+#order:hover .order1, .order2{
+  color:rgb(66, 66, 66);
+}
+.custom-link{
+   text-decoration: none;
+   color: rgb(61, 61, 61);
+}
+.custom-link:hover{
+    text-decoration: none;
+    color: green;
+ }
+ .profile-h{
+   color: rgb(95, 95, 95);
+    margin: 15px;
+    text-align: center;
+ }
+
+ .name-h{
+    color: rgb(167, 167, 167);
+    margin: 15px;
+ }
+.full-name{
+    color: rgb(3, 3, 3);
+    margin: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.email-h{
+    color: rgb(167, 167, 167);
+    margin: 15px;
+}
+.email{
+    color: rgb(3, 3, 3);
+    margin: 15px;
+    font-weight: bold;
+}
+.edit
+{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(56, 129, 56);
+  border-radius: 3px;
+  padding: 2px 15px  3px 15px ;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(56, 129, 56);
+}
+.edit:hover {
+  background-color: rgb(35, 83, 35);
+  text-decoration: none;
+  color: white;
+}
+.logout
+{
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  border-radius: 3px;
+  padding: 2px 15px  3px 15px ;
+}
+.logout:hover {
+  background-color: rgb(212, 138, 0);
+  text-decoration: none;
+  color: white;
+}
+.shop-h{
+    margin: 15px;
+    background-color: rgb(221, 221, 221);
+}
+.open-shop-btn
+{
+ color: white;
+  background-color: rgb(56, 129, 56);
+  border-radius: 2px;
+  text-align: center;
+  width: 40%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.open-shop-btn:hover {
+  text-decoration: none;
+  background-color: rgb(35, 83, 35);
+  text-decoration: none;
+  color: white;
+}
+.new-shop-btn{
+  color: white;
+  background-color: orange;
+  border-radius: 2px;
+  text-align: center;
+  width: 40%;
+  margin-left: 15px;
+}
+.new-shop-btn:hover {
+  text-decoration: none;
+  background-color: rgb(209, 136, 0);
+  text-decoration: none;
+  color: white;
+}
+.bottom-mrgn{
+    margin-bottom: 30px;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+
+}
+.dropdown-content{
+display: none;
+position: absolute;
+box-shadow: 0px 2px 10px rgb(212, 212, 212);
+background-color: rgb(247, 247, 247);
+z-index: 1;
+}
+.dropdown-content a{
+  display: block;
+  padding: 3px 15px 3px 15px;
+  text-decoration: none;
+}
+.dropdown-content a:hover{
+  background-color: rgb(233, 233, 233);
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: rgb(255, 255, 255);
+  color: orange;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(253, 165, 0);
+}
+
+.dropbtn{
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: orange;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  color: white;
+}
+
+.product-items {
+  display: inline-block;
+  background-color: white;
+  min-width: 220px;
+  width: 23px;
+  text-align: center;
+  padding: 15px;
+}
+.pro-img {
+ max-width: 180px;
+  max-height:200px;
+  margin: 5px;
+}
+     
+.product-info {
+  width:100%;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(173, 173, 173);
+ }
+
+ .products h3{
+  padding-left: 15px;
+ }
+
+ .pro-name {
+  color: rgb(104, 104, 104);
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;  
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+  
+ }
+ .pro-name:hover {
+  color: rgb(29, 122, 0); 
+  text-decoration: none;  
+  
+ }
+ .pro-price {
+  color: black;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0px;
+  height: 20px;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
+
+@media (max-width: 576px) {
+  .display{
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+ 
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+  
+}
